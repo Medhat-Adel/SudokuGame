@@ -36,7 +36,6 @@ bool SudokuBoard::isValidRow(int row, int value) const
             return false;
         }
     }
-
     return true;
 }
 
@@ -49,12 +48,12 @@ bool SudokuBoard::isValidColumn(int col, int value) const
             return false;
         }
     }
-
     return true;
 }
 
 bool SudokuBoard::isValidBox(int row, int col, int value) const
 {
+    // Find the top-left corner of the 3x3 box containing (row, col).
     int startRow = row - (row % 3);
     int startCol = col - (col % 3);
 
@@ -68,31 +67,14 @@ bool SudokuBoard::isValidBox(int row, int col, int value) const
             }
         }
     }
-
     return true;
 }
 
 bool SudokuBoard::isValidMove(int row, int col, int value) const
 {
-    // Check if the value is already present in the row.
-    if (!isValidRow(row, value))
-    {
-        return false;
-    }
-
-    // Check if the value is already present in the column.
-    if (!isValidColumn(col, value))
-    {
-        return false;
-    }
-
-    // Check if the value is already present in the 3x3 box.
-    if (!isValidBox(row, col, value))
-    {
-        return false;
-    }
-
-    return true;
+    return isValidRow(row, value)
+        && isValidColumn(col, value)
+        && isValidBox(row, col, value);
 }
 
 bool SudokuBoard::isComplete() const
@@ -107,7 +89,6 @@ bool SudokuBoard::isComplete() const
             }
         }
     }
-
     return true;
 }
 
@@ -136,7 +117,6 @@ void SudokuBoard::print() const
                 std::cout << board[row][col] << " ";
             }
         }
-
         std::cout << '\n';
     }
 }

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Software Development/Projects/SudokuGame/src/SudokuBoard.cpp" "CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.obj" "gcc" "CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.obj.d"
+  "D:/Software Development/Projects/SudokuGame/src/SudokuGame.cpp" "CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj" "gcc" "CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj.d"
   "D:/Software Development/Projects/SudokuGame/src/SudokuSolver.cpp" "CMakeFiles/SudokuGame.dir/src/SudokuSolver.cpp.obj" "gcc" "CMakeFiles/SudokuGame.dir/src/SudokuSolver.cpp.obj.d"
   "D:/Software Development/Projects/SudokuGame/src/main.cpp" "CMakeFiles/SudokuGame.dir/src/main.cpp.obj" "gcc" "CMakeFiles/SudokuGame.dir/src/main.cpp.obj.d"
   )

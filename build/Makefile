@@ -152,6 +152,30 @@ src/SudokuBoard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.s
 .PHONY : src/SudokuBoard.cpp.s
 
+src/SudokuGame.obj: src/SudokuGame.cpp.obj
+.PHONY : src/SudokuGame.obj
+
+# target to build an object file
+src/SudokuGame.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj
+.PHONY : src/SudokuGame.cpp.obj
+
+src/SudokuGame.i: src/SudokuGame.cpp.i
+.PHONY : src/SudokuGame.i
+
+# target to preprocess a source file
+src/SudokuGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.i
+.PHONY : src/SudokuGame.cpp.i
+
+src/SudokuGame.s: src/SudokuGame.cpp.s
+.PHONY : src/SudokuGame.s
+
+# target to generate assembly for a file
+src/SudokuGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.s
+.PHONY : src/SudokuGame.cpp.s
+
 src/SudokuSolver.obj: src/SudokuSolver.cpp.obj
 .PHONY : src/SudokuSolver.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... src/SudokuBoard.obj
 	@echo ... src/SudokuBoard.i
 	@echo ... src/SudokuBoard.s
+	@echo ... src/SudokuGame.obj
+	@echo ... src/SudokuGame.i
+	@echo ... src/SudokuGame.s
 	@echo ... src/SudokuSolver.obj
 	@echo ... src/SudokuSolver.i
 	@echo ... src/SudokuSolver.s

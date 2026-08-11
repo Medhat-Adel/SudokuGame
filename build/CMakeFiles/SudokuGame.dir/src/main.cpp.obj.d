@@ -33,6 +33,7 @@ CMakeFiles/SudokuGame.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bit \
  C:/msys64/mingw64/include/c++/16.1.0/concepts \
  C:/msys64/mingw64/include/c++/16.1.0/bits/range_access.h \
+ D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuSolver.hpp \
  C:/msys64/mingw64/include/c++/16.1.0/iostream \
  C:/msys64/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/16.1.0/ostream \

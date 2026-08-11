@@ -1,28 +1,52 @@
 #include "sudoku/SudokuBoard.hpp"
+#include "sudoku/SudokuSolver.hpp"
 
 #include <iostream>
 
 int main()
 {
     sudoku::SudokuBoard board;
+    sudoku::SudokuSolver solver;
 
-    board.setCell(0, 0, 5);
-    board.setCell(0, 1, 3);
-    board.setCell(1, 0, 6);
+    // Define a valid Sudoku puzzle.
+    int puzzle[9][9] =
+    {
+        {5, 3, 0, 0, 7, 0, 0, 0, 0},
+        {6, 0, 0, 1, 9, 5, 0, 0, 0},
+        {0, 9, 8, 0, 0, 0, 0, 6, 0},
 
-    std::cout << "Sudoku Board:\n\n";
+        {8, 0, 0, 0, 6, 0, 0, 0, 3},
+        {4, 0, 0, 8, 0, 3, 0, 0, 1},
+        {7, 0, 0, 0, 2, 0, 0, 0, 6},
 
+        {0, 6, 0, 0, 0, 0, 2, 8, 0},
+        {0, 0, 0, 4, 1, 9, 0, 0, 5},
+        {0, 0, 0, 0, 8, 0, 0, 7, 9}
+    };
+
+    // Load the puzzle into the board.
+    for (int row = 0; row < 9; ++row)
+    {
+        for (int col = 0; col < 9; ++col)
+        {
+            board.setCell(row, col, puzzle[row][col]);
+        }
+    }
+
+    std::cout << "Original Puzzle:\n\n";
     board.print();
 
-    std::cout << "\nCell [0][0]: "
-              << board.getCell(0, 0) << '\n';
+    std::cout << "\nSolving...\n\n";
 
-    std::cout << "\nValid move (0, 2, 5): "
-              << std::boolalpha
-              << board.isValidMove(0, 2, 5) << '\n';
-
-    std::cout << "Valid move (0, 2, 7): "
-              << board.isValidMove(0, 2, 7) << '\n';
+    if (solver.solve(board))
+    {
+        std::cout << "Solved Puzzle:\n\n";
+        board.print();
+    }
+    else
+    {
+        std::cout << "No solution exists.\n";
+    }
 
     return 0;
 }

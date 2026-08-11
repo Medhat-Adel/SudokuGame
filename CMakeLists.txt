@@ -12,6 +12,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(SudokuGame
     src/main.cpp
     src/SudokuBoard.cpp
+    src/SudokuSolver.cpp
 )
 
 target_include_directories(SudokuGame

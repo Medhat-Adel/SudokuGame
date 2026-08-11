@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.obj"
   "CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.obj.d"
+  "CMakeFiles/SudokuGame.dir/src/SudokuSolver.cpp.obj"
+  "CMakeFiles/SudokuGame.dir/src/SudokuSolver.cpp.obj.d"
   "CMakeFiles/SudokuGame.dir/src/main.cpp.obj"
   "CMakeFiles/SudokuGame.dir/src/main.cpp.obj.d"
   "SudokuGame.exe"

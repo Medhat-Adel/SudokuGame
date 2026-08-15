@@ -4,6 +4,16 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "RC"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_RC
+  "D:/Software Development/Projects/SudokuGame/resources/resources.rc" "D:/Software Development/Projects/SudokuGame/build/CMakeFiles/SudokuGame.dir/resources/resources.rc.obj"
+  )
+
+# The include file search paths:
+set(CMAKE_RC_TARGET_INCLUDE_PATH
+  "D:/Software Development/Projects/SudokuGame/include"
   )
 
 # The set of dependency files which are needed:

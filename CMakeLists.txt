@@ -16,6 +16,7 @@ add_executable(SudokuGame
     src/SudokuGame.cpp
     src/SudokuFileManager.cpp
     src/InputHandler.cpp
+    resources/resources.rc
 )
 
 target_include_directories(SudokuGame

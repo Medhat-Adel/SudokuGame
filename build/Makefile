@@ -128,6 +128,14 @@ SudokuGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/build
 .PHONY : SudokuGame/fast
 
+resources/resources.obj: resources/resources.rc.obj
+.PHONY : resources/resources.obj
+
+# target to build an object file
+resources/resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/resources/resources.rc.obj
+.PHONY : resources/resources.rc.obj
+
 src/InputHandler.obj: src/InputHandler.cpp.obj
 .PHONY : src/InputHandler.obj
 
@@ -281,6 +289,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SudokuGame
+	@echo ... resources/resources.obj
 	@echo ... src/InputHandler.obj
 	@echo ... src/InputHandler.i
 	@echo ... src/InputHandler.s

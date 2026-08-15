@@ -1,41 +1,31 @@
-CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
- D:\Software\ Development\Projects\SudokuGame\src\SudokuGame.cpp \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuGame.hpp \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuBoard.hpp \
- C:/msys64/mingw64/include/c++/16.1.0/array \
- C:/msys64/mingw64/include/c++/16.1.0/compare \
- C:/msys64/mingw64/include/c++/16.1.0/bits/version.h \
+CMakeFiles/SudokuGame.dir/src/InputHandler.cpp.obj: \
+ D:\Software\ Development\Projects\SudokuGame\src\InputHandler.cpp \
+ D:/Software\ Development/Projects/SudokuGame/include/sudoku/InputHandler.hpp \
+ D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuException.hpp \
+ C:/msys64/mingw64/include/c++/16.1.0/stdexcept \
+ C:/msys64/mingw64/include/c++/16.1.0/exception \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/mingw64/include/c++/16.1.0/pstl/pstl_config.h \
- C:/msys64/mingw64/include/c++/16.1.0/initializer_list \
- C:/msys64/mingw64/include/c++/16.1.0/type_traits \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_throw.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/exception.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/version.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/exception_ptr.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/exception_defines.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_algobase.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/cpp_type_traits.h \
- C:/msys64/mingw64/include/c++/16.1.0/ext/type_traits.h \
- C:/msys64/mingw64/include/c++/16.1.0/ext/numeric_traits.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_pair.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
+ C:/msys64/mingw64/include/_mingw_mac.h \
+ C:/msys64/mingw64/include/_mingw_secapi.h \
+ C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/c++/16.1.0/typeinfo \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/hash_bytes.h \
+ C:/msys64/mingw64/include/c++/16.1.0/new \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/new_except.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/move.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/utility.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/concept_check.h \
- C:/msys64/mingw64/include/c++/16.1.0/debug/assertions.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/ptr_traits.h \
- C:/msys64/mingw64/include/c++/16.1.0/debug/debug.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/predefined_ops.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/stl_function.h \
- C:/msys64/mingw64/include/c++/16.1.0/backward/binders.h \
- C:/msys64/mingw64/include/c++/16.1.0/bit \
- C:/msys64/mingw64/include/c++/16.1.0/concepts \
- C:/msys64/mingw64/include/c++/16.1.0/bits/range_access.h \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuSolver.hpp \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuFileManager.hpp \
+ C:/msys64/mingw64/include/c++/16.1.0/type_traits \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/nested_exception.h \
  C:/msys64/mingw64/include/c++/16.1.0/string \
  C:/msys64/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/stringfwd.h \
@@ -43,15 +33,9 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/char_traits.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/postypes.h \
  C:/msys64/mingw64/include/c++/16.1.0/cwchar \
- C:/msys64/mingw64/include/wchar.h C:/msys64/mingw64/include/corecrt.h \
- C:/msys64/mingw64/include/_mingw.h \
- C:/msys64/mingw64/include/_mingw_mac.h \
- C:/msys64/mingw64/include/_mingw_secapi.h \
- C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/wchar.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt_wconio.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
- C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
  C:/msys64/mingw64/include/sec_api/wconio_s.h \
  C:/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/msys64/mingw64/include/corecrt_wctype.h \
@@ -62,10 +46,8 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/allocator.h \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/new_allocator.h \
- C:/msys64/mingw64/include/c++/16.1.0/new \
- C:/msys64/mingw64/include/c++/16.1.0/bits/exception.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/new_except.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/new_throw.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/cpp_type_traits.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/localefwd.h \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/msys64/mingw64/include/c++/16.1.0/clocale \
@@ -76,6 +58,27 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/ctype.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ostream_insert.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/cxxabi_forced.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/concept_check.h \
+ C:/msys64/mingw64/include/c++/16.1.0/debug/assertions.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stl_iterator.h \
+ C:/msys64/mingw64/include/c++/16.1.0/ext/type_traits.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/ptr_traits.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stl_function.h \
+ C:/msys64/mingw64/include/c++/16.1.0/backward/binders.h \
+ C:/msys64/mingw64/include/c++/16.1.0/ext/numeric_traits.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_throw.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stl_algobase.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/stl_pair.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/utility.h \
+ C:/msys64/mingw64/include/c++/16.1.0/debug/debug.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/predefined_ops.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bit \
+ C:/msys64/mingw64/include/c++/16.1.0/concepts \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/range_access.h \
+ C:/msys64/mingw64/include/c++/16.1.0/initializer_list \
  C:/msys64/mingw64/include/c++/16.1.0/bits/erase_if.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/basic_string.h \
  C:/msys64/mingw64/include/c++/16.1.0/ext/alloc_traits.h \
@@ -83,7 +86,6 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/stl_construct.h \
  C:/msys64/mingw64/include/c++/16.1.0/string_view \
  C:/msys64/mingw64/include/c++/16.1.0/bits/functional_hash.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/hash_bytes.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/string_view.tcc \
  C:/msys64/mingw64/include/c++/16.1.0/ext/string_conversions.h \
  C:/msys64/mingw64/include/c++/16.1.0/cstdlib \
@@ -107,14 +109,6 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/uses_allocator_args.h \
  C:/msys64/mingw64/include/c++/16.1.0/tuple \
  C:/msys64/mingw64/include/c++/16.1.0/bits/invoke.h \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/InputHandler.hpp \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuException.hpp \
- C:/msys64/mingw64/include/c++/16.1.0/stdexcept \
- C:/msys64/mingw64/include/c++/16.1.0/exception \
- C:/msys64/mingw64/include/c++/16.1.0/bits/exception_ptr.h \
- C:/msys64/mingw64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
- C:/msys64/mingw64/include/c++/16.1.0/typeinfo \
- C:/msys64/mingw64/include/c++/16.1.0/bits/nested_exception.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/stdexcept_except.h \
  C:/msys64/mingw64/include/c++/16.1.0/iostream \
  C:/msys64/mingw64/include/c++/16.1.0/ostream \

@@ -128,6 +128,30 @@ SudokuGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/build
 .PHONY : SudokuGame/fast
 
+src/InputHandler.obj: src/InputHandler.cpp.obj
+.PHONY : src/InputHandler.obj
+
+# target to build an object file
+src/InputHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/InputHandler.cpp.obj
+.PHONY : src/InputHandler.cpp.obj
+
+src/InputHandler.i: src/InputHandler.cpp.i
+.PHONY : src/InputHandler.i
+
+# target to preprocess a source file
+src/InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/InputHandler.cpp.i
+.PHONY : src/InputHandler.cpp.i
+
+src/InputHandler.s: src/InputHandler.cpp.s
+.PHONY : src/InputHandler.s
+
+# target to generate assembly for a file
+src/InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuGame.dir\build.make CMakeFiles/SudokuGame.dir/src/InputHandler.cpp.s
+.PHONY : src/InputHandler.cpp.s
+
 src/SudokuBoard.obj: src/SudokuBoard.cpp.obj
 .PHONY : src/SudokuBoard.obj
 
@@ -257,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SudokuGame
+	@echo ... src/InputHandler.obj
+	@echo ... src/InputHandler.i
+	@echo ... src/InputHandler.s
 	@echo ... src/SudokuBoard.obj
 	@echo ... src/SudokuBoard.i
 	@echo ... src/SudokuBoard.s

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SudokuGame.dir/src/InputHandler.cpp.obj"
+  "CMakeFiles/SudokuGame.dir/src/InputHandler.cpp.obj.d"
   "CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.obj"
   "CMakeFiles/SudokuGame.dir/src/SudokuBoard.cpp.obj.d"
   "CMakeFiles/SudokuGame.dir/src/SudokuFileManager.cpp.obj"

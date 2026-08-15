@@ -1,4 +1,6 @@
 #include "sudoku/SudokuGame.hpp"
+#include "sudoku/InputHandler.hpp"
+#include "sudoku/SudokuException.hpp"
 
 #include <iostream>
 #include <string>
@@ -45,7 +47,6 @@ void SudokuGame::displayMenu() const
     std::cout << "3. Load puzzle from file\n";
     std::cout << "4. Save current puzzle to file\n";
     std::cout << "5. Exit\n";
-    std::cout << "\nChoose an option: ";
 }
 
 bool SudokuGame::isValidPosition(int row, int col) const
@@ -62,21 +63,32 @@ void SudokuGame::play()
         int col;
         int value;
 
-        std::cout << "\nEnter row (1-9) or 0 to return: ";
-        std::cin >> row;
-
-        // Return to the main menu.
-        if (row == 0)
+        try
         {
-            std::cout << "\nReturning to main menu...\n";
-            return;
+            row = InputHandler::readInt(
+                "\nEnter row (1-9) or 0 to return: "
+            );
+
+            // Return to the main menu.
+            if (row == 0)
+            {
+                std::cout << "\nReturning to main menu...\n";
+                return;
+            }
+
+            col = InputHandler::readInt(
+                "Enter column (1-9): "
+            );
+
+            value = InputHandler::readInt(
+                "Enter value (1-9): "
+            );
         }
-
-        std::cout << "Enter column (1-9): ";
-        std::cin >> col;
-
-        std::cout << "Enter value (1-9): ";
-        std::cin >> value;
+        catch (const SudokuException& e)
+        {
+            std::cout << "\nError: " << e.what() << '\n';
+            continue;
+        }
 
         // Convert user input from 1-9 to 0-8.
         --row;
@@ -92,7 +104,8 @@ void SudokuGame::play()
         // Check whether the value is between 1 and 9.
         if (value < 1 || value > 9)
         {
-            std::cout << "Invalid value. Enter a number from 1 to 9.\n";
+            std::cout
+                << "Invalid value. Enter a number from 1 to 9.\n";
             continue;
         }
 
@@ -212,7 +225,15 @@ void SudokuGame::run()
 
         displayMenu();
 
-        std::cin >> choice;
+        try
+        {
+            choice = InputHandler::readInt("\nChoose an option: ");
+        }
+        catch (const SudokuException& e)
+        {
+            std::cout << "\nError: " << e.what() << '\n';
+            continue;
+        }
 
         handleMenuChoice(choice);
     }

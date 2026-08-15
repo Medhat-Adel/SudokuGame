@@ -481,7 +481,9 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: D:/Software\ Development/Proje
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
+  D:/Software\ Development/Projects/SudokuGame/include/sudoku/InputHandler.hpp \
   D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuBoard.hpp \
+  D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuException.hpp \
   D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuFileManager.hpp \
   D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuGame.hpp \
   D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuSolver.hpp
@@ -968,6 +970,10 @@ C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++io.h:
 D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuFileManager.hpp:
 
 D:/Software\ Development/Projects/SudokuGame/src/SudokuGame.cpp:
+
+D:/Software\ Development/Projects/SudokuGame/include/sudoku/InputHandler.hpp:
+
+D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuException.hpp:
 
 D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuSolver.hpp:
 

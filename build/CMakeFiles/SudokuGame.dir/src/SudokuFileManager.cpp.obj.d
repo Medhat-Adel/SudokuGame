@@ -1,6 +1,6 @@
-CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
- D:\Software\ Development\Projects\SudokuGame\src\SudokuGame.cpp \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuGame.hpp \
+CMakeFiles/SudokuGame.dir/src/SudokuFileManager.cpp.obj: \
+ D:\Software\ Development\Projects\SudokuGame\src\SudokuFileManager.cpp \
+ D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuFileManager.hpp \
  D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuBoard.hpp \
  C:/msys64/mingw64/include/c++/16.1.0/array \
  C:/msys64/mingw64/include/c++/16.1.0/compare \
@@ -34,8 +34,6 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bit \
  C:/msys64/mingw64/include/c++/16.1.0/concepts \
  C:/msys64/mingw64/include/c++/16.1.0/bits/range_access.h \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuSolver.hpp \
- D:/Software\ Development/Projects/SudokuGame/include/sudoku/SudokuFileManager.hpp \
  C:/msys64/mingw64/include/c++/16.1.0/string \
  C:/msys64/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/stringfwd.h \
@@ -107,9 +105,8 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/bits/uses_allocator_args.h \
  C:/msys64/mingw64/include/c++/16.1.0/tuple \
  C:/msys64/mingw64/include/c++/16.1.0/bits/invoke.h \
- C:/msys64/mingw64/include/c++/16.1.0/iostream \
- C:/msys64/mingw64/include/c++/16.1.0/ostream \
- C:/msys64/mingw64/include/c++/16.1.0/bits/ostream.h \
+ C:/msys64/mingw64/include/c++/16.1.0/fstream \
+ C:/msys64/mingw64/include/c++/16.1.0/istream \
  C:/msys64/mingw64/include/c++/16.1.0/ios \
  C:/msys64/mingw64/include/c++/16.1.0/exception \
  C:/msys64/mingw64/include/c++/16.1.0/bits/exception_ptr.h \
@@ -152,7 +149,12 @@ CMakeFiles/SudokuGame.dir/src/SudokuGame.cpp.obj: \
  C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/locale_facets.tcc \
  C:/msys64/mingw64/include/c++/16.1.0/bits/basic_ios.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/ostream \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/ostream.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ostream_print.h \
  C:/msys64/mingw64/include/c++/16.1.0/bits/ostream.tcc \
- C:/msys64/mingw64/include/c++/16.1.0/istream \
- C:/msys64/mingw64/include/c++/16.1.0/bits/istream.tcc
+ C:/msys64/mingw64/include/c++/16.1.0/bits/istream.tcc \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/codecvt.h \
+ C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/mingw64/include/c++/16.1.0/bits/fstream.tcc
